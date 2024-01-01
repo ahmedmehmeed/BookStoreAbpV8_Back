@@ -9,7 +9,7 @@ namespace BookStore.EntityFrameworkCore.Applications.Books;
 
 
 [Collection(BookStoreTestConsts.CollectionDefinitionName)]
-public class EfCoreBookAppServic : BookAppServiceTests<BookStoreEntityFrameworkCoreTestModule>
+public class EfCoreBookAppService : BookAppServiceTests<BookStoreEntityFrameworkCoreTestModule>
 {
 
 }
